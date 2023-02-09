@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Arttu Kaipaisen portfolio" />
+		<meta name="keywords" content="Arttu Kaipainen, portfolio" />
+		<meta name="author" content="Arttu Kaipainen" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="reset.min.css" />
+		<link rel="stylesheet" href="main.min.css" />
+		<link
+			rel="stylesheet"
+			href="mobile.min.css"
+			media="only screen and (max-width: 1280px), orientation: portrait"
+		/>
+		<script defer src="index.min.js"></script>
+		<title>Arttu Kaipainen</title>
+	</head>
+
+	<body class="dark">
+		<nav>
+			<!-- Navigation -->
+			<div id="navLeft">
+				<img id="menuBtn" src="icons/menu_white.svg" alt="Menu" />
+				<img
+					id="darkModeBtn"
+					src="icons/light_mode_white.svg"
+					alt="Dark mode / light mode"
+					loading="lazy"
+				/>
+				<div id="name">Arttu Kaipainen</div>
+				<img id="upArrow1" src="icons/up_arrow_white.svg" alt="Scroll to top" />
+			</div>
+
+			<div id="mobileName">Arttu Kaipainen</div>
+
+			<ul id="menuBar">
+				<!--Desktop layout menubar-->
+				<li><a href="#koulutus">Koulutus</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#yhteystiedot">Yhteystiedot</a></li>
+			</ul>
+
+			<ul id="mobileMenu">
+				<!--Mobile layout menu-->
+				<li>
+					<img
+						id="upArrow2"
+						src="icons/up_arrow_white.svg"
+						alt="Scroll to top"
+					/>
+				</li>
+				<li><a href="#koulutus">Koulutus</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#yhteystiedot">Yhteystiedot</a></li>
+			</ul>
+
+			<div id="navRight">
+				<!-- Links -->
+				<a
+					id="githublogo"
+					rel="external"
+					target="_blank"
+					href="https://github.com/IamNanjo/"
+				>
+					<img
+						src="icons/GitHub-Mark-Light.webp"
+						alt="Link to my GitHub page"
+					/>
+				</a>
+				<a
+					id="gitlablogo"
+					rel="external"
+					target="_blank"
+					href="https://gitlab.labranet.jamk.fi/AB6262"
+				>
+					<img src="icons/gitlab-icon.svg" alt="Link to my GitLab page" />
+				</a>
+			</div>
+		</nav>
+
+		<header>
+			<!-- Header -->
+			<h1 class="center">Arttu Kaipainen</h1>
+			<img
+				class="img25 center"
+				style="min-width: 200px; max-width: 300px"
+				src="images/AK.webp"
+				alt="Kuva minusta"
+			/>
+		</header>
+
+		<main>
+			<!-- Main content -->
+			<section id="koulutus">
+				<h2>Koulutus</h2>
+				<div>
+					<p>
+						Valmistuin ICT-asentajaksi erinomaisilla arvosanoilla Toukokuussa
+						2021 Savon Ammattiopistosta.
+					</p>
+					<br />
+					<p>
+						Opiskelen tällä hetkellä tieto- ja viestintätekniikkaa Jyväskylän
+						ammattikorkeakoulussa (2. vuosi) ja aion suuntautua
+						ohjelmistokehitykseen, koska olen eniten kiinnostunut
+						fullstack-ohjelmistokehityksestä.
+					</p>
+				</div>
+			</section>
+
+			<section id="portfolio">
+				<h2>Portfolio</h2>
+				<h3>Taitaja2021 kisat</h3>
+				<div>
+					<p>
+						Osallistuin Taitaja2021 kisoihin ammatillisen koulutuksen viimeisenä
+						vuotena. Kisat menivät erinomaisesti ja sain kilpailusta SM-hopeaa.
+						Lajina oli
+						<a
+							rel="external"
+							target="_blank"
+							class="linkInText"
+							href="https://taitaja2021.fi/fi/lajit/it-ja-viestintateknologia/205-tietokoneet-ja-verkot/"
+							>205 - tietokoneet ja verkot</a
+						>, johon kuului muun muassa verkkolaitteiden konfigurointia ja
+						vianmääritystä ja Windows- ja Linux palvelimien ylläpitoa ja
+						käyttöönottoa<br />
+						<br />
+					</p>
+					<figure class="center">
+						<img
+							class="img50"
+							src="images/Taitaja_2021_finaali_tietokoneet_ja_verkot_Seppo_Kolehmainen.webp"
+							alt="Taitaja2021 finaali Oulu"
+						/>
+						<figcaption class="center">
+							Kuvaaja: Seppo Kolehmainen / Skills Finland
+						</figcaption>
+					</figure>
+				</div>
+
+				<h3>Ohjelmointi</h3>
+				<div id="programming">
+					<div class="card">
+						<div class="content">
+							<h3>Discord Botti</h3>
+							<p>
+								Ensimmäinen projektini sen jälkeen, kun kiinnostuin
+								ohjelmoinnista oli
+								<a
+									rel="external"
+									target="_blank"
+									class="linkInText"
+									href="https://github.com/IamNanjo/NodeJs-Discord-Bot"
+									>Discord botti</a
+								>, jolla pystyy hakemaan Reddit -sivuilta kuvia ja urbaanista
+								sanakirjasta sanoja. Botin tekemiseen käytin
+								<a
+									rel="external"
+									target="_blank"
+									class="linkInText"
+									href="https://discord.js.org/#/"
+									>DiscordJS</a
+								>
+								kirjastoa. <br />
+								<br />
+							</p>
+							<img
+								class="img100 center"
+								src="images/Discord_Bot.webp"
+								alt="Discord Bot index tiedosto"
+							/>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="content">
+							<h3>Yksinkertainen tekstieditori</h3>
+							<p>
+								Tein myös JAMKin Ohjelmoinnin perusteet opintojakson
+								harjoitustyönä hyvin
+								<a
+									rel="external"
+									target="_blank"
+									class="linkInText"
+									href="https://github.com/IamNanjo/Simple-Python-Text-Editor"
+									>yksinkertaisen tekstieditorin</a
+								>
+								Pythonilla, jolla voi luoda ja muokata tiedostoja. Sillä ei
+								kuitenkaan voi poistaa tiedostoja ja käyttöliittymä on aika
+								huono.
+							</p>
+							<img
+								class="img100"
+								src="images/Simple_Python_Text_Editor_MainWindow.webp"
+								alt="Infonäytön index tiedosto"
+							/>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="content">
+							<h3>File share</h3>
+							<p>
+								<a
+									rel="external"
+									target="_blank"
+									class="linkInText"
+									href="https://github.com/IamNanjo/file-share"
+									>Yksinkertainen ohjelma</a
+								>, jolla voi lähettää tiedostoja palvelimelle. Lähetyksen aikana
+								näkyy edistymispalkki ja ohjelma luo linkit tiedostoihin
+								automaattisesti lähetyksen onnistuttua.
+							</p>
+							<img
+								class="img100"
+								src="images/file-share.webp"
+								alt="File share"
+							/>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="content">
+							<h3>WhatUpp viestintäsovellus</h3>
+							<p>
+								Hyvin
+								<a
+									rel="external"
+									target="_blank"
+									class="linkInText"
+									href="https://github.com/IamNanjo/webdev-ht"
+									>yksinkertainen viestintäsovellus</a
+								>. Kuka tahansa voi luoda käyttäjän ja lähettää viestejä
+								kaikille muille käyttäjille. Sovelluksessa voi lähettää
+								yksityisviestejä ja ryhmäviestejä. Toteutukseen käytetty
+								MERN-pinoa
+							</p>
+							<img class="img100" src="images/webdev-ht.webp" alt="WhatUpp" />
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer id="yhteystiedot">
+			<!-- Contact info in the footer -->
+			<h2>Yhteystiedot:</h2>
+			<div>arttukaipa300@gmail.com</div>
+			<div>+358 44 2851443</div>
+		</footer>
+	</body>
+</html>

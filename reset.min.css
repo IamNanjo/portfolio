@@ -1,0 +1,5 @@
+*,::after,::before{box-sizing:border-box;margin:0;padding:0;font:inherit;text-decoration:none}:root{font-size:clamp(
+		16px,
+		2vw,
+		22px
+	)}

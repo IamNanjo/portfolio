@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1280px) {
+	/* Mobile view */
+
+	.img25 {
+		width: 50%;
+	}
+	.img40 {
+		width: 90%;
+	}
+	.img50 {
+		width: 90%;
+	}
+
+	nav {
+		grid-template-columns: 1fr 1.5fr 1fr;
+		gap: 5%;
+		z-index: 10; /* Meter elements cover up the navbar without this on Chrome for android */
+	}
+
+	h1 {
+		margin-top: 0;
+		font-size: 2em;
+	}
+
+	main {
+		margin: 3em auto;
+	}
+	main > section {
+		width: 80%;
+		padding-top: 24px;
+	}
+
+	#name {
+		display: none;
+	}
+	#mobileName {
+		display: block;
+		width: 100%;
+		font-size: 1.2em;
+		color: var(--text-alt);
+		text-align: center;
+	}
+
+	#navLeft,
+	#navRight {
+		width: max-content;
+		z-index: 3;
+	}
+	#navLeft * {
+		margin-inline: 0.25em;
+	}
+
+	#menuBtn {
+		display: inline-block;
+	}
+	#menuBar {
+		display: none;
+	}
+
+	#menuBtn,
+	#darkModeBtn,
+	#githublogo *,
+	#gitlablogo * {
+		height: 32px;
+	}
+}

@@ -1,0 +1,15 @@
+*
+!*/
+
+!icons/**/*
+!images/**/*
+!.gitignore
+!index.html
+!index.js
+!index.min.js
+!main.css
+!main.min.css
+!mobile.css
+!mobile.min.css
+!reset.css
+!reset.min.css
